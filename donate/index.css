@@ -50,6 +50,11 @@
   border: 2px solid black;
 }
 
+.matchWidths strong {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
 
 /*Media Queries*/
