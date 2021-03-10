@@ -41,66 +41,6 @@
 }
 
 
-/*Home Shop*/
-.homeShopContainer {
-  background-color: white;
-  padding: 2rem;
-}
-
-.shopFilters ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-.shopCardsContainer {
-  margin-top: 2rem;
-}
-
-.individualCards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #F0F0F0;
-  color: black;
-  width: 100%;
-  height: 250px;
-  margin-bottom: 1rem;
-  overflow: hidden;
-}
-
-.individualCards:hover>.productCrop img {
-  transform: scale(1.2);
-  transition: ease-in-out .3s all;
-}
-
-.productCrop {
-  width: 100%;
-  height: 250px;
-  overflow: hidden;
-}
-
-.productCrop img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.individualCards h3 {
-  position: absolute;
-}
-
-.individualCards img {
-  height: 250px;
-  opacity: .4;
-}
-
-.fullShopLink {
-  float: right;
-  font-size: .75rem;
-}
-
-
 
 /*Media Queries*/
 /* Larger than tablet (also point when grid becomes active) */
@@ -127,7 +67,8 @@
     font-size: 2.5rem;
   }
 
-  .heroText p {
+  .heroText p,
+  .heroContainer img {
     width: 20vw;
   }
 }
