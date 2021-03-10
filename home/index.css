@@ -66,6 +66,10 @@
   overflow: hidden;
 }
 
+.individualCards:hover > .productCrop img {
+  transform: scale(1.2);
+  transition: ease-in-out .3s all;
+}
 
 .productCrop {
   width: 100%;
