@@ -1,6 +1,13 @@
-@import url("https://use.typekit.net/jtp0zud.css"); //fresno
+@import url("https://use.typekit.net/jtp0zud.css");
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-@import "./variables.scss"; //colors
+
+/*
+red: #FC6E66;
+yellow: #F7DC5A;
+blue: #488DD3;
+green: #0DB57D;
+tan: #F2EDE7;
+*/
 
 * {
   padding: 0;
@@ -8,33 +15,39 @@
   box-sizing: border-box;
 }
 
-//Lato Black
+/*Lato Black*/
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
 }
 
-//Fresno
+/*Fresno*/
 h2 {
   font-family: fresno, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-//Lato Bold
+/*Lato Bold*/
 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
 
-//Lato Regular
+/*Lato Regular*/
 p {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 
-//Home
+/*Home*/
 .homeContainer {
   width: 100%;
   height: fit-content;
+}
+
+.heroContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #F2EDE7;
 }
