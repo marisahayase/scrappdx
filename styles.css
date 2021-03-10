@@ -35,6 +35,7 @@ h2 {
 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 /*Lato Regular*/
@@ -56,6 +57,13 @@ button {
   font-style: normal;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+/*Hyperlink Reset*/
+a {
+  color: inherit;
+  text-decoration: inherit;
+  /* no underline */
 }
 
 /*Home*/
