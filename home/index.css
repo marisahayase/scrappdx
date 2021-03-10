@@ -12,10 +12,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-image: url(../images/pattern.svg);
+  background-size: 55rem;
+  background-repeat: no-repeat;
+  background-position: left -260px bottom 10px;
 }
 
 .heroContainer h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .heroContainer h2 {
@@ -108,6 +112,12 @@
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
+  .heroContainer {
+    background-image: url(../images/pattern.svg), url(../images/pattern.svg);
+    background-size: 40rem, 40rem;
+    background-repeat: no-repeat;
+    background-position: left -260px center, right -260px center;
+  }
   .heroContainer h1 {
     font-size: 6rem;
   }
