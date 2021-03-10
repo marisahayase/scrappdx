@@ -6,14 +6,13 @@
 
 .heroContainer {
   width: 100%;
-  height: 100vh;
+  height: fit-content;
   background-color: #F2EDE7;
   background-image: url(../images/pattern.svg);
   background-size: 55rem;
   background-repeat: no-repeat;
   background-position: right 100px bottom 10px;
   padding: 2rem;
-  padding-top: 30vh;
 }
 
 .heroText {
@@ -36,20 +35,11 @@
   letter-spacing: 2px;
 }
 
-.heroContainer button {
+.heroContainer img {
   margin-top: 2rem;
-  padding: 1rem;
-  background-color: black;
-  color: white;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  border: 2px solid black;
+  width: 100%;
 }
 
-.heroContainer button:hover {
-  background-color: #FC6E66;
-  transition: ease-in-out .2s all;
-}
 
 /*Home Shop*/
 .homeShopContainer {
@@ -126,6 +116,7 @@
     background-size: 40rem, 40rem;
     background-repeat: no-repeat;
     background-position: left -260px center, right -260px center;
+    padding-top: 30vh;
   }
 
   .heroContainer h1 {
