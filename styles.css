@@ -138,6 +138,14 @@ footer hr {
     width: 60vw;
   }
 
+  .desktopNav a:hover {
+    color: #FC6E66;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+  }
+
   footer {
     flex-direction: row;
     justify-content: space-around;
