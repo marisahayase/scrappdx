@@ -66,20 +66,6 @@
   overflow: hidden;
 }
 
-.productOverlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .2s ease;
-  background-color: #66e2ea;
-  border-radius: 1rem;
-  z-index: 1;
-}
 
 .productCrop {
   width: 100%;
