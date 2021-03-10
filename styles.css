@@ -64,6 +64,9 @@ a {
   color: inherit;
   text-decoration: inherit;
   /* no underline */
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 /*Home*/
@@ -131,4 +134,9 @@ a {
   width: 100%;
   height: 250px;
   margin-bottom: 1rem;
+}
+
+.fullShopLink {
+  float: right;
+  font-size: .75rem;
 }
