@@ -81,6 +81,14 @@ footer {
   text-align: center;
 }
 
+.footerNav {
+  font-size: 1.25rem;
+}
+
+.footerNav li {
+  margin-bottom: .5rem;
+}
+
 footer hr {
   width: 100%;
   color: white;
