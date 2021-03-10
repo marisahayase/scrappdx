@@ -157,6 +157,11 @@ footer hr {
     text-align: left;
   }
 
+  .footerNav a:hover {
+    color: #FC6E66;
+    transition: .2s ease-in-out all;
+  }
+
   .footerAbout {
     text-align: right;
     width: 20vw;
