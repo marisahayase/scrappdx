@@ -144,6 +144,7 @@ footer hr {
     text-decoration-style: wavy;
     text-underline-offset: 10px;
     text-decoration-thickness: 3px;
+    transition: .2s ease-in-out all;
   }
 
   footer {
