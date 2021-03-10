@@ -19,6 +19,7 @@ tan: #F2EDE7;
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 /*Fresno*/
@@ -26,6 +27,7 @@ h2 {
   font-family: fresno, sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 /*Lato Bold*/
@@ -38,6 +40,14 @@ h3 {
 p {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+}
+
+button {
+  font-family: fresno, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 /*Home*/
@@ -53,9 +63,24 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .heroContainer h1 {
   font-size: 2rem;
-  text-transform: uppercase;
+}
+
+.heroContainer h2 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.heroContainer button {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border: 2px solid black;
 }
