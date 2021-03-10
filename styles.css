@@ -89,9 +89,11 @@ footer {
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 2rem;
+
 }
 
 .footerNav {
@@ -136,6 +138,25 @@ footer hr {
     display: flex;
     justify-content: space-between;
     width: 60vw;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5rem;
+  }
+
+  .footerNav {
+    text-align: left;
+  }
+
+  .footerAbout {
+    text-align: right;
+    width: 20vw;
+  }
+
+  footer hr {
+    display: none;
   }
 }
 
