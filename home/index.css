@@ -70,7 +70,7 @@
   overflow: hidden;
 }
 
-.individualCards:hover > .productCrop img {
+.individualCards:hover>.productCrop img {
   transform: scale(1.2);
   transition: ease-in-out .3s all;
 }
@@ -118,6 +118,7 @@
     background-repeat: no-repeat;
     background-position: left -260px center, right -260px center;
   }
+
   .heroContainer h1 {
     font-size: 6rem;
   }

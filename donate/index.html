@@ -26,18 +26,36 @@
         </a>
       </ul>
     </nav>
-    <nav></nav>
+    <nav class="mobileNav">
+      <div class="hamburgerMenu" id="hammy">
+        <div id="one" class="hamburgerLine"></div>
+        <div id="two" class="hamburgerLine"></div>
+        <div id="three" class="hamburgerLine"></div>
+        <nav class="overlay" id="overlayID">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../mission/index.html">Mission</a></li>
+            <li><a href="#">Donate</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="circleContainer"></div>
+    </nav>
     <section class="heroContainer">
       <div class="heroText">
         <h1>Donate</h1>
         <h2>Support the Mission</h2>
         <div class="matchWidths">
           <p>Do you love that your donated materials skip the waste stream and make their way into creative hands?</p>
-          <p>It costs SCRAP to divert all these usable materials and make them available to our community. Some of our customer's favorite items are processed at a financial loss to our organization. Consider donating to SCRAP to help us offset these costs.</p>
-          <img src="../images/donate-1.jpg"/>
+          <p>It costs SCRAP to divert all these usable materials and make them available to our community. Some of our
+            customer's favorite items are processed at a financial loss to our organization. Consider donating to SCRAP
+            to help us offset these costs.</p>
+          <img src="../images/donate-1.jpg" />
           <p>We count on your generosity as an individual, foundation, corporate sponsor, or partner.</p>
           <p><strong>How it Works</strong></p>
-          <p>You feel the creative, environmental, and educational love from SCRAP. You return the love by adding to our resources so we can share with others. It becomes a circle of love that keeps giving – to you, to us, and to the entire community.</p>
+          <p>You feel the creative, environmental, and educational love from SCRAP. You return the love by adding to our
+            resources so we can share with others. It becomes a circle of love that keeps giving – to you, to us, and to
+            the entire community.</p>
           <p><strong>Here's How:</strong></p>
           <p>Make a one-time or recurring donation</p>
           <p>Volunteer at one of our SCRAP Locations</p>
@@ -45,7 +63,7 @@
           <p>Become an event sponsor (for more information, contact operations@scrapcr eativereuse.org)</p>
           <button onclick="window.open('https://portland.scrapcreativereuse.org/FAQs');">View our donation faq</button>
         </div>
-        </div>
+      </div>
     </section>
   </main>
   <footer>
@@ -84,6 +102,17 @@
     </section>
   </footer>
   <script src="./home/index.js"></script>
+  <script type="text/javascript">
+    document.getElementById("hammy").addEventListener('click', function () {
+      if (this.classList.contains("on")) {
+        this.classList.remove("on");
+        this.classList.add("off");
+      } else {
+        this.classList.remove("off");
+        this.classList.add("on");
+      }
+    });
+  </script>
 </body>
 
 </html>

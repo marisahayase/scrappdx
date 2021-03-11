@@ -26,7 +26,21 @@
         </a>
       </ul>
     </nav>
-    <nav></nav>
+    <nav class="mobileNav">
+      <div class="hamburgerMenu" id="hammy">
+        <div id="one" class="hamburgerLine"></div>
+        <div id="two" class="hamburgerLine"></div>
+        <div id="three" class="hamburgerLine"></div>
+        <nav class="overlay" id="overlayID">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mission/index.html">Mission</a></li>
+            <li><a href="donate/index.html">Donate</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="circleContainer"></div>
+    </nav>
     <section class="heroContainer">
       <h1>Scrap PDX</h1>
       <h2>A Creative reuse non-profit</h2>
@@ -39,7 +53,7 @@
       </div>
       <!--Product Cards-->
       <div class="shopCardsContainer">
-        <a href="#" target="_blank">
+        <a href="https://scrap-pdx-online.myshopify.com/collections/vintage" target="_blank">
           <div class="individualCards">
             <div class="productCrop">
               <img src="./images/shop-2.png" />
@@ -119,6 +133,17 @@
     </section>
   </footer>
   <script src="./home/index.js"></script>
+  <script type="text/javascript">
+    document.getElementById("hammy").addEventListener('click', function () {
+      if (this.classList.contains("on")) {
+        this.classList.remove("on");
+        this.classList.add("off");
+      } else {
+        this.classList.remove("off");
+        this.classList.add("on");
+      }
+    });
+  </script>
 </body>
 
 </html>
